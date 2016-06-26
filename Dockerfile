@@ -28,7 +28,8 @@ RUN wget http://www.intra-mart.jp/download/product/iap/imbox/cassandra_simple_au
     echo "imbox_keyspace.<rw>=aoyagi" >> /usr/local/cassandra/conf/access.properties && \
     echo "imbox_keyspace.<ro>=user" >> /usr/local/cassandra/conf/access.properties && \
     echo "imbox_keyspace.*.<rw>=aoyagi" >> /usr/local/cassandra/conf/access.properties && \
-    echo "imbox_keyspace.*.<ro>=user" >> /usr/local/cassandra/conf/access.properties
+    echo "imbox_keyspace.*.<ro>=user" >> /usr/local/cassandra/conf/access.properties && \
+    chmod +x /usr/local/cassandra/entrypoint.sh
 
 ENTRYPOINT ["/usr/local/cassandra/entrypoint.sh"]
 
