@@ -1,4 +1,4 @@
-FROM java:7-jdk-alpine
+FROM java:8-jdk-alpine
 
 MAINTAINER tsgkdt <tsgkadot@gmail.com>
 ENV CASSANDRA_VER 1.1.12
