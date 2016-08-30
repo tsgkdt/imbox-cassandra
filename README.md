@@ -1,5 +1,5 @@
 # Cassandra for IMBox
 
-- Base Image: java:8-jdk-alpine
+- Base Image: java:7-jdk-alpine
 - Cassandra: 1.1.12
--aaddd Authentication: intra-mart simple auth
+- Authentication: intra-mart simple auth
