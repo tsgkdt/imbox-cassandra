@@ -10,11 +10,14 @@
 # 日本語の説明
 
 - intra-mart Accel-PlatformでIMBoxを利用する際に必要となるCassandraのDockerイメージ
-- Cassandra公式のDockerイメージでは要求されるバージョンが古すぎるため、存在しないためやむなく自作
+- Cassandra公式のDockerイメージでは要求されるバージョンが古すぎて、存在しないためやむなく自作
+- デモ用途にサンプルユーザ(aoyagi/aoyagi)を初期設定している
 
 > 2015年7月現在のApacheCassandraの最新版は、2.1.8ですが、
 > 1.2～2.1は、intra-mart Accel Platformで利用しているCassandraのライブラリがサポートしていないため、
 > 現状は、1.1台の最新の1.1.12をご利用ください。
 
 出展: [intra-mart Accel Platform Cassandra管理者ガイド 第14版](http://www.intra-mart.jp/document/library/iap/public/imbox/cassandra_administrator_guide/texts/install/get-cassandra.html)
+
+使い方等は、[Qiita](http://qiita.com/kirareyaku/items/b0e7887a10b21db7ded7)などを参照してください
 
